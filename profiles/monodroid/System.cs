@@ -8266,7 +8266,6 @@ namespace System.Net.Sockets
         public System.Net.EndPoint RemoteEndPoint { get { throw null; } set { } }
         public System.Net.Sockets.SendPacketsElement[] SendPacketsElements { get { throw null; } set { } }
         public System.Net.Sockets.TransmitFileOptions SendPacketsFlags { get { throw null; } set { } }
-        [System.MonoTODOAttribute("unused property")]
         public int SendPacketsSendSize { get { throw null; } set { } }
         public System.Net.Sockets.SocketError SocketError { get { throw null; } set { } }
         public System.Net.Sockets.SocketFlags SocketFlags { get { throw null; } set { } }
