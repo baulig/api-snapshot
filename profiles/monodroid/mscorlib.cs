@@ -164,10 +164,11 @@ namespace Microsoft.Win32.SafeHandles
         [System.Security.SecurityCriticalAttribute]
         protected override bool ReleaseHandle() { throw null; }
     }
+    [System.Security.SecurityCriticalAttribute]
     public sealed partial class SafeFileHandle : Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
     {
         public SafeFileHandle(System.IntPtr preexistingHandle, bool ownsHandle) : base (default(bool)) { }
-        public override bool IsInvalid { get { throw null; } }
+        [System.Security.SecurityCriticalAttribute]
         protected override bool ReleaseHandle() { throw null; }
     }
     [System.Security.SecurityCriticalAttribute]
